@@ -1,0 +1,5 @@
+// We can also pass default parameters in our mixin function.
+@mixin code($spacing: 0.3rem) {
+  color: $primary-color-2;
+  letter-spacing: 0.3rem;
+}
