@@ -1,0 +1,15 @@
+@import "container";
+@import "globals";
+@import "heading";
+
+* {
+  @include global();
+}
+
+.container {
+  @include containerCode();
+
+  h1 {
+    @include headingCode();
+  }
+}

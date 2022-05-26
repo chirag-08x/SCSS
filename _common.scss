@@ -1,7 +1,0 @@
-// We can also pass parameters inside the function. We can pass multiple parameters
-@mixin commonCode($spacing) {
-  font-size: 1rem + 1rem;
-  color: $primary-color-3;
-  font-weight: bold;
-  letter-spacing: $spacing;
-}
